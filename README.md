@@ -38,7 +38,7 @@ flowchart TD
     C --> E[Add student as collaborator<br>(push permission)]
     C --> F[Create webhook → your server]
     C --> G[Save link in DB]
-```
     H[Student → git push] --> I[GitHub sends webhook]
     I --> J[Your backend saves submission + runs analysis]
     J --> K[Teacher sees result instantly]
+```
